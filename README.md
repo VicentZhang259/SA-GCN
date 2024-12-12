@@ -1,39 +1,27 @@
 # SA-GCN
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+#### A Spatial-temporal graph convolutional network with self-attention for city-level cellular network traffic prediction
 
-#### 软件架构
-软件架构说明
+#### 
 
-
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+A precise and prompt estimation of cellular network traffic is essential for improving user quality of experience.
+However, there are many obstacles to accomplishing this aim because of the dynamic and complex structure of
+spatial-temporal connections. We present unique multi-dimensional features fusion self-attention-based spatial-temporal
+Graph Convolutional Networks (MF-SAGCN) to tackle these problems. This model improves the accuracy of cellular traffic
+prediction by capturing dynamic spatial-temporal properties and unstable relationships in a synergistic and fusion way.
+MF-SAGCN consists of two key modules: a spatial transformer and a temporal transformer. In the spatial domain, the
+spatial transformer and the multi-self attention mechanism are utilized to capture static and dynamic spatial features,
+respectively, and a gating mechanism seamlessly fuses the static and dynamic features. The temporal transformer utilizes
+a self-attention mechanism in the temporal domain to capture the non-stationary temporal correlations in traffic data.
+Then, a spatial-temporal transformer block consisting of multiple temporal and spatial transformers is connected by skip
+connection to achieve the fusion of deep features of different dimensions. Ultimately, the local spatial-temporal
+dependencies in the globally encoded features are mined by the designed densely connected convolution module. To
+validate the effectiveness of MF-SAGCN, we conduct extensive experiments on a publicly available real cellular network
+traffic dataset. The results show that MF-SAGCN has a competitive advantage over popular state-of-the-art methods.
 
 
-#### 特技
+#### requirement
+requirements.txt
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+
+
